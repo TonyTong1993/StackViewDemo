@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB593FEC1F15B2890093EF63 /* UIColor+LPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB593FEB1F15B2890093EF63 /* UIColor+LPExtension.m */; };
 		EBE638BA1F14834D0050CC5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE638B91F14834D0050CC5B /* main.m */; };
 		EBE638BD1F14834D0050CC5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE638BC1F14834D0050CC5B /* AppDelegate.m */; };
 		EBE638C01F14834D0050CC5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE638BF1F14834D0050CC5B /* ViewController.m */; };
 		EBE638C31F14834D0050CC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE638C11F14834D0050CC5B /* Main.storyboard */; };
 		EBE638C51F14834D0050CC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE638C41F14834D0050CC5B /* Assets.xcassets */; };
 		EBE638C81F14834D0050CC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE638C61F14834D0050CC5B /* LaunchScreen.storyboard */; };
+		EBE638D01F14C7D50050CC5B /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE638CF1F14C7D50050CC5B /* head.jpg */; };
+		EBE638D21F14CBF20050CC5B /* Acme_Monogram_Colour.png in Resources */ = {isa = PBXBuildFile; fileRef = EBE638D11F14CBF20050CC5B /* Acme_Monogram_Colour.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB593FEA1F15B2890093EF63 /* UIColor+LPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LPExtension.h"; sourceTree = "<group>"; };
+		EB593FEB1F15B2890093EF63 /* UIColor+LPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LPExtension.m"; sourceTree = "<group>"; };
 		EBE638B51F14834D0050CC5B /* StackViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE638B91F14834D0050CC5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EBE638BB1F14834D0050CC5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		EBE638C41F14834D0050CC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE638C71F14834D0050CC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBE638C91F14834D0050CC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE638CF1F14C7D50050CC5B /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		EBE638D11F14CBF20050CC5B /* Acme_Monogram_Colour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Acme_Monogram_Colour.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,8 @@
 		EBE638B71F14834D0050CC5B /* StackViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EB593FEA1F15B2890093EF63 /* UIColor+LPExtension.h */,
+				EB593FEB1F15B2890093EF63 /* UIColor+LPExtension.m */,
 				EBE638BB1F14834D0050CC5B /* AppDelegate.h */,
 				EBE638BC1F14834D0050CC5B /* AppDelegate.m */,
 				EBE638BE1F14834D0050CC5B /* ViewController.h */,
@@ -74,6 +83,8 @@
 		EBE638B81F14834D0050CC5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBE638CF1F14C7D50050CC5B /* head.jpg */,
+				EBE638D11F14CBF20050CC5B /* Acme_Monogram_Colour.png */,
 				EBE638B91F14834D0050CC5B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBE638C81F14834D0050CC5B /* LaunchScreen.storyboard in Resources */,
+				EBE638D01F14C7D50050CC5B /* head.jpg in Resources */,
+				EBE638D21F14CBF20050CC5B /* Acme_Monogram_Colour.png in Resources */,
 				EBE638C51F14834D0050CC5B /* Assets.xcassets in Resources */,
 				EBE638C31F14834D0050CC5B /* Main.storyboard in Resources */,
 			);
@@ -152,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBE638C01F14834D0050CC5B /* ViewController.m in Sources */,
+				EB593FEC1F15B2890093EF63 /* UIColor+LPExtension.m in Sources */,
 				EBE638BD1F14834D0050CC5B /* AppDelegate.m in Sources */,
 				EBE638BA1F14834D0050CC5B /* main.m in Sources */,
 			);
@@ -312,6 +326,7 @@
 				EBE638CE1F14834D0050CC5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
